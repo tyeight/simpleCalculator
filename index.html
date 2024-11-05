@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <script src="src/js/emptyValue.js"></script>
+    <script src="src/js/moveCalculator.js"></script>
+    <title>Calculadora simples</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <p class="display" id="displayValue"></p>
+      <div class="calculator-buttons">
+        <button onclick="emptyValue('')" id="cancelEntry">CE</button>
+        <button onclick="emptyValue('',false,true)" id="clearOperation">
+          C
+        </button>
+        <button onclick="emptyValue('',false,false,true)" id="idk"><<</button>
+        <button onclick="emptyValue('/')" id="division">/</button>
+        <button onclick="emptyValue('7')" value="7">7</button>
+        <button onclick="emptyValue('8')" value="8">8</button>
+        <button onclick="emptyValue('9')" value="9">9</button>
+        <button onclick="emptyValue('*')" id="mult">*</button>
+        <button onclick="emptyValue('4')" value="4">4</button>
+        <button onclick="emptyValue('5')" value="5">5</button>
+        <button onclick="emptyValue('6')" value="6">6</button>
+        <button onclick="emptyValue('-')" id="less">-</button>
+        <button onclick="emptyValue('1')" value="1">1</button>
+        <button onclick="emptyValue('2')" value="2">2</button>
+        <button onclick="emptyValue('3')" value="3">3</button>
+        <button onclick="emptyValue('+')" id="add">+</button>
+        <button onclick="emptyValue('',false,false,false,true)" id="moreLess">
+          ±
+        </button>
+        <button onclick="emptyValue('0')" value="0">0</button>
+        <button onclick="emptyValue(',')" value=",">,</button>
+        <button onclick="emptyValue('', true)" id="equal">=</button>
+      </div>
+    </div>
+  </body>
+</html>
