@@ -25,11 +25,11 @@ O projeto é composto pelos seguintes arquivos:
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/calculadora-simples.git
+   git clone https://github.com/tyeight/simpleCalculator
    ```
 2. **Navegue para o diretório do projeto**:
    ```bash
-   cd calculadora-simples
+   cd simpleCalculator
    ```
 3. **Abra o arquivo `index.html` em seu navegador**.
 
@@ -41,7 +41,7 @@ O projeto é composto pelos seguintes arquivos:
 
 ## Captura de Tela
 
-![Captura de Tela](screenshot.png) <!-- Adicione uma imagem de captura de tela da calculadora aqui -->
+![Captura de Tela](src/image/screenshot.png) <!-- Adicione uma imagem de captura de tela da calculadora aqui -->
 
 ## Próximos Passos
 
